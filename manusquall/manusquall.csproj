@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>aspnet-manusquall-C17FEFCC-0172-4D05-AFF2-3435CEE78574</UserSecretsId>
+    <ApplicationIcon>squall.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
