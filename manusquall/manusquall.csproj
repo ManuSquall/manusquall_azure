@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\chatAgent\" />
     <Folder Include="wwwroot\resume\" />
   </ItemGroup>
 
