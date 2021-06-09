@@ -43,6 +43,7 @@
 .chat-screen .chat-mail {
     /*padding: 30px;*/
     display: block;
+    height: 100%;
 }
 .chat-screen .chat-mail input.form-control {
     border-radius: 30px;
