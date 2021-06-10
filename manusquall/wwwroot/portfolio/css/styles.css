@@ -461,6 +461,10 @@ progress {
   font-weight: 300;
 }
 
+.squall-p-justify {
+    text-align: justify;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -10918,9 +10922,15 @@ html {
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #9217da;
 }
-#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
-}
+    #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+        color: #fff;
+        
+    }
+
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: #fff;
+        background: #9217da;
+    }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #9217da;
 }
