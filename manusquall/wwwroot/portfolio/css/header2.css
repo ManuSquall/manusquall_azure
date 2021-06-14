@@ -1,0 +1,80 @@
+﻿
+
+/* portfolio header 2 */
+
+.bg-blue {
+    background: #470FA8 !important;
+}
+
+
+.banner-2 {
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+    .banner-2 .banner-content-2 {
+        padding: 180px 0px 120px 0px;
+    }
+
+@media (max-width: 1200px) {
+    .banner-2 .banner-content-2 {
+        padding: 150px 0 100px 0;
+    }
+}
+
+.banner-2 .banner-content-2 h2 {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+@media (max-width: 1200px) {
+    .banner-2 .banner-content-2 h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+.banner-2 p {
+    color: rgba(255, 255, 255, 0.7);
+    padding-right: 55px;
+    font-size: 17px;
+}
+
+.banner-2 .btn:hover {
+    background: #fff;
+    color: #000 !important;
+}
+
+@media (max-width: 400px) {
+    .banner .banner-content h2 {
+        font-size: 66px;
+        line-height: 86px;
+    }
+}
+
+@media (max-width: 400px) {
+    .banner .banner-content h2 {
+        font-size: 66px;
+        line-height: 86px;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner .banner-content h2 {
+        font-size: 85px;
+        line-height: 100px;
+    }
+
+    .about-banner {
+        background-position: 40% 50%;
+    }
+}
+
+
+.overlay-shape {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
