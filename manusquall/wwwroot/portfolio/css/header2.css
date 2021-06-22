@@ -3,9 +3,13 @@
 /* portfolio header 2 */
 
 .bg-blue {
-    background: #470FA8 !important;
+    /*background: #470FA8 !important;*/
+    background-color: #9217da;
 }
 
+.text-yello {
+    color: #ffc429;
+}
 
 .banner-2 {
     overflow: hidden;
