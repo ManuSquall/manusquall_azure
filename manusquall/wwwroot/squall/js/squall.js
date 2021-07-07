@@ -1,4 +1,5 @@
 ﻿var yql = 'https://gh-pinned-repos-5l2i19um3.vercel.app/?username=manusquall';
+
 $.getJSON(yql, function (data) {
     
     if (data) {
