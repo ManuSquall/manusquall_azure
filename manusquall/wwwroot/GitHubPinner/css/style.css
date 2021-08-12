@@ -18,6 +18,7 @@
 
     .github-pinner.gp-repo {
         width: 300px;
+        margin: 0 auto;
     }
 
     .github-pinner.gp-all {

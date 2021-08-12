@@ -1,0 +1,7 @@
+﻿/*CUstom css for header*/
+.squall-logo {
+    display: inline-block;
+    width: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+}

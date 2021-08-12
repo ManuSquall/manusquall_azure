@@ -14,9 +14,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.6" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\squall\" />
-    <Folder Include="wwwroot\resume\" />
-  </ItemGroup>
-
 </Project>

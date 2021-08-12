@@ -10955,6 +10955,10 @@ html {
     font-size: 1.75em;
     transition: font-size 0.3s;
   }
+    /*Custom css for header*/
+    .navbar-shrink .squall-logo {
+        width: 70px;
+    }
   #mainNav .navbar-nav {
     margin-top: 0;
   }
@@ -10974,6 +10978,10 @@ html {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
+    /*Custom css for header*/
+    .navbar-shrink .squall-logo {
+        width: 70px;
+    }
 }
 .form-floating input.form-control,
 .form-floating textarea.form-control {

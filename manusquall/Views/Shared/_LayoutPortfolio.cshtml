@@ -31,13 +31,18 @@
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="~/portfolio/css/header2.css" rel="stylesheet" />
+    
+    
+    <!-- Squall custom style-->
+    <link href="~/squall/css/squall.css" rel="stylesheet" />
 
 </head>
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top">ManuSquall</a>
+            
+            <a class="navbar-brand" href="#page-top"> <img src="~/portfolio/assets/img/squall.png" class="squall-logo container-fluid" alt="Squall Logo" /> ManuSquall</a>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -46,7 +51,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio" @*href="#portfolio"*@>Projects</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Services</a></li>
+                    @*<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Services</a></li>*@
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" asp-controller="Home" asp-action="Index">SquallDev</a></li>
                 </ul>
